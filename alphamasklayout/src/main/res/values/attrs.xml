@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AlphaMaskLayout">
+        <!--透明度0~255-->
+        <attr name="aml_alpha_from" format="integer"/>
+        <!--透明度0~255-->
+        <attr name="aml_alpha_to" format="integer"/>
+        <!--透明度动画时间长度-->
+        <attr name="aml_duration" format="integer"/>
+    </declare-styleable>
+</resources>
