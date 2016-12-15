@@ -7,8 +7,7 @@
 
 2.透明度可以中断，并从中断的地方继续或者反转
 
-城市选择推荐使用CityPicker：
-[CityPicker]: https://github.com/zaaach/CityPicker
+城市选择推荐使用[CityPicker](https://github.com/zaaach/CityPicker)
 
 # Gif
 
@@ -109,5 +108,6 @@ maskLayout.setOnAlphaFinishedListener(new AlphaMaskLayout.OnAlphaFinishedListene
 Done! hope it will be useful.
 
 # Ad
-[我的动漫周边X宝店]: https://shop238932691.taobao.com/ ，希望您可以关注下(dan)：
+我的[动漫周边X宝店]( https://shop238932691.taobao.com/) ，希望您可以关注下(dan)：
+
 ![二维码](https://img.alicdn.com/imgextra/i1/769720206/TB2AnBVar0kpuFjy0FjXXcBbVXa_!!769720206.png)
