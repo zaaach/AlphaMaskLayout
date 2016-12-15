@@ -107,6 +107,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
+        userOrg= "zaaach"
         name = "AlphaMaskLayout"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
