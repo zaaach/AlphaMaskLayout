@@ -5,7 +5,7 @@
 
 1.支持自定义开始结束透明度、动画时间
 
-2.透明度可以中断，并从中断的地方继续或者反转
+2.透明度动画可以中断继续或返回
 
 城市选择推荐使用[CityPicker](https://github.com/zaaach/CityPicker)
 
