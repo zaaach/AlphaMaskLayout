@@ -25,7 +25,7 @@ compile 'com.zaaach:alphamasklayout:1.1'
 
 or Maven:
 
-```xm
+```groovy
 <dependency>
   <groupId>com.zaaach</groupId>
   <artifactId>alphamasklayout</artifactId>
@@ -55,7 +55,7 @@ or 下载library手动导入.
 
 
 
-### step1:
+### Step1:
 
 在XML中添加
 
@@ -126,6 +126,6 @@ maskLayout.setOnAlphaFinishedListener(new AlphaMaskLayout.OnAlphaFinishedListene
 Done! hope it will be useful.
 
 # Ad
-我的[动漫周边淘宝店]( https://shop238932691.taobao.com/) ，希望您可以关注下(dan)：
+我的[动漫周边淘宝店]( https://shop238932691.taobao.com/) ，希望亲可以收藏下(dan)：
 
 ![二维码](https://img.alicdn.com/imgextra/i1/769720206/TB2AnBVar0kpuFjy0FjXXcBbVXa_!!769720206.png)
