@@ -21,7 +21,7 @@ public class AlphaMaskLayout extends FrameLayout {
     private static int DEFAULT_ALPHA_TO     = 0;
     private static int DEFAULT_DURATION     = 0;
     /**default foreground color*/
-    private static String DEFAULT_COLOR     = "#233333";
+    private static String DEFAULT_COLOR     = "#1f1f1f";
 
     /** start alpha */
     private int alphaFrom;

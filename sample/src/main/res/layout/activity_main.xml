@@ -1,51 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aml="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/layout_bottom"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:gravity="center">
-        <Button
-            android:id="@+id/btn_start"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:background="@color/colorPrimary"
-            android:text="开始/Show"
-            android:textAllCaps="false"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="@string/app_name"
+            android:textSize="18sp"
             android:textColor="@android:color/white"/>
-        <Button
-            android:id="@+id/btn_reverse"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="1dp"
-            android:background="@color/colorPrimary"
-            android:text="反转/Reverse"
-            android:textAllCaps="false"
-            android:textColor="@android:color/white"/>
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/more"
+            android:scaleType="center"/>
+    </RelativeLayout>
 
     <com.zaaach.alphamasklayout.AlphaMaskLayout
         android:id="@+id/mask_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/layout_bottom"
+        android:foreground="#1f1f1f"
         aml:aml_alpha_from="0"
-        aml:aml_alpha_to="180"
-        aml:aml_duration="1200">
+        aml:aml_alpha_to="127"
+        aml:aml_duration="600">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Can you see me?"
+            android:text="要变暗的布局"
             android:textColor="#233333"
             android:textSize="26sp"/>
     </com.zaaach.alphamasklayout.AlphaMaskLayout>
-</RelativeLayout>
+</LinearLayout>
