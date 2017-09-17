@@ -124,8 +124,3 @@ maskLayout.setOnAlphaFinishedListener(new AlphaMaskLayout.OnAlphaFinishedListene
 ### Step3:
 
 Done! hope it will be useful.
-
-# Ad
-我的[动漫周边淘宝店]( https://shop238932691.taobao.com/) ，希望亲可以收藏下(dan)：
-
-![二维码](https://img.alicdn.com/imgextra/i1/769720206/TB2AnBVar0kpuFjy0FjXXcBbVXa_!!769720206.png)
