@@ -44,7 +44,7 @@ public class AlphaMaskLayout extends FrameLayout {
     }
 
     public AlphaMaskLayout(Context context, AttributeSet attrs, int defStyleAttr) {
-        this(context, attrs, defStyleAttr, 0);
+        super(context, attrs, defStyleAttr);
         getAttrs(context, attrs);
     }
 
